@@ -21,7 +21,7 @@ define(["dojo/topic"], function(topic) {
 				layer = map.getLayer(LAYER_ID);
 
 			if ( layer ) {
-				layer.on("click", function(e){
+				layer.on("dbl-click", function(e){
 					var index = e.graphic.attributes["SectionIndex"];
 					topic.publish("story-navigate-section", index);
 				});
