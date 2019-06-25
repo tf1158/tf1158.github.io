@@ -11,7 +11,7 @@ define(["dojo/topic"], function(topic) {
 	});
 
 	var WEBMAP_ID = "4d240d875bab49f9a48d586362a47772",
-		LAYER_ID = "park_explorer_HomePoint_7794";
+		LAYER_ID = "park_explorer_HomePoint_7794_0";
 
 	var clickHandlerIsSetup = false;
 
