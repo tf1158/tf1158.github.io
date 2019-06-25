@@ -27,7 +27,7 @@ define(["dojo/topic"], function(topic) {
 					map.infoWindow.setTitle("<div style='font-weight:bold;font-size:14px'>"+e.graphic.attributes.Name+"</div>"
 						);
 					map.infoWindow.setContent(
-						"<div>"+e.graphic.attributes.Location+"</div>"
+						"<div>"+e.graphic.attributes.Name+"</div>"
 						);
 					map.infoWindow.show(e.graphic.Name);
 					map.infoWindow.resize(300,200);
