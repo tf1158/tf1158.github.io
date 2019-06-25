@@ -22,7 +22,7 @@ define(["dojo/topic"], function(topic) {
 
 			if ( layer ) {
 				layer.on("dbl-click", function(e){
-					var index = e.graphic.attributes["SectionIndex"];
+					var index = e.graphic.attributes["jumpto"];
 					topic.publish("story-navigate-section", index);
 				});
 			}
