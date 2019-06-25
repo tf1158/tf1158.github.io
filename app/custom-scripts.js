@@ -29,7 +29,7 @@ define(["dojo/topic"], function(topic) {
 					map.infoWindow.setContent(
 						"<div>"+e.graphic.attributes.Location+"</div>"
 						);
-					map.infoWindow.show(e.graphic.geometry);
+					map.infoWindow.show(e.graphic.Name);
 					map.infoWindow.resize(300,200);
 				});
         
